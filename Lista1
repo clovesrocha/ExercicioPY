@@ -1,0 +1,411 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DearFlavio/ExercicioPY/blob/main/Lista1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. Faça um CÓDIGO que mostre a mensagem \"Olá ETE PORTO DIGITAL!\" na tela."
+      ],
+      "metadata": {
+        "id": "tPeqqc_DYHV1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "mensagem = \"Olá ETE CICERO DIAS !\"\n",
+        "print(mensagem)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iGEqqb0OYJZV",
+        "outputId": "cc5e0318-9abd-4307-e7c9-df9793702369"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá ETE PORTO DIGITAL!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Faça um CÓDIGO que peça um número e então mostre a mensagem O número informado foi [número]."
+      ],
+      "metadata": {
+        "id": "cE92H613YPEE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = input(\"Informe um número: \")\n",
+        "print(\"O número informado foi\", numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c8jUJTg7YTIG",
+        "outputId": "b54b54bb-6045-451c-a8d4-58dc1f711a44"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Informe um número: 13\n",
+            "O número informado foi 13\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Faça um CÓDIGO que peça dois números e imprima a soma."
+      ],
+      "metadata": {
+        "id": "hXvA6s0DYaMs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero1 = float(input(\"Digite o primeiro número: \"))\n",
+        "numero2 = float(input(\"Digite o segundo número: \"))\n",
+        "\n",
+        "soma = numero1 + numero2\n",
+        "\n",
+        "print(\"A soma dos dois números é:\", soma)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J9hVL7b1Ydd9",
+        "outputId": "8e732be6-e354-44e5-b62f-e4c5ee042560"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o primeiro número: 13\n",
+            "Digite o segundo número: 13\n",
+            "A soma dos dois números é: 26.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Faça um CÓDIGO que peça as 4 notas bimestrais e mostre a média final."
+      ],
+      "metadata": {
+        "id": "JBuMhW8nYjM9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota1 = float(input(\"Digite a primeira nota: \"))\n",
+        "nota2 = float(input(\"Digite a segunda nota: \"))\n",
+        "nota3 = float(input(\"Digite a terceira nota: \"))\n",
+        "nota4 = float(input(\"Digite a quarta nota: \"))\n",
+        "\n",
+        "media = (nota1 + nota2 + nota3 + nota4) / 4\n",
+        "\n",
+        "print(\"A média final é:\", media)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TqGgEcqKYs9I",
+        "outputId": "97429658-b929-49ac-d772-011b311eed8e"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a primeira nota: 13\n",
+            "Digite a segunda nota: 13\n",
+            "Digite a terceira nota: 13\n",
+            "Digite a quarta nota: 13\n",
+            "A média final é: 13.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. Faça um CÓDIGO que converta metros para centímetros."
+      ],
+      "metadata": {
+        "id": "I4B40Rf4Yy6L"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "metros = float(input(\"Digite o valor em metros: \"))\n",
+        "\n",
+        "centimetros = metros * 100\n",
+        "\n",
+        "print(\"O valor em centímetros é:\", centimetros)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6ycESXVzY1mb",
+        "outputId": "2186b41a-4bc4-43d2-933c-57e53a0b8403"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor em metros: 13\n",
+            "O valor em centímetros é: 1300.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6. Faça um CÓDIGO que peça o raio de um círculo, calcule e mostre sua área."
+      ],
+      "metadata": {
+        "id": "BYQ4r-1cY6yj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "raio = float(input(\"Digite o raio do círculo: \"))\n",
+        "\n",
+        "area = math.pi * raio**2\n",
+        "\n",
+        "print(\"A área do círculo é:\", area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QqUYn3XqY9Uj",
+        "outputId": "d6d91ab9-15c5-41f9-abe8-9edea3553365"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o raio do círculo: 13\n",
+            "A área do círculo é: 530.929158456675\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. Faça um CÓDIGO que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário."
+      ],
+      "metadata": {
+        "id": "pxRG-7QrZCC1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "lado = float(input(\"Digite o valor do lado do quadrado: \"))\n",
+        "\n",
+        "area = lado ** 2\n",
+        "dobro_area = 2 * area\n",
+        "\n",
+        "print(\"A área do quadrado é:\", area)\n",
+        "print(\"O dobro da área é:\", dobro_area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dbgITLwmZFOc",
+        "outputId": "525d15e1-7ef7-4db9-bbb1-28e9d2e641e3"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do lado do quadrado: 13\n",
+            "A área do quadrado é: 169.0\n",
+            "O dobro da área é: 338.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. Faça um CÓDIGO que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês."
+      ],
+      "metadata": {
+        "id": "IG7tHSrvZKK0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor_por_hora = float(input(\"Digite o valor do seu salário por hora: \"))\n",
+        "horas_trabalhadas = float(input(\"Digite o número de horas trabalhadas no mês: \"))\n",
+        "\n",
+        "salario_mensal = valor_por_hora * horas_trabalhadas\n",
+        "\n",
+        "print(\"Seu salário mensal é:\", salario_mensal)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7q__J45pYOVu",
+        "outputId": "dbd42e58-af1a-45ef-c4b4-8684462e9c0e"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor do seu salário por hora: 13\n",
+            "Digite o número de horas trabalhadas no mês: 13\n",
+            "Seu salário mensal é: 169.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. Faça um CÓDIGO que peça um valor e mostre na tela se o valor é positivo ou negativo."
+      ],
+      "metadata": {
+        "id": "2I0UbgExZY3M"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor = float(input(\"Digite um valor: \"))\n",
+        "\n",
+        "if valor > 0:\n",
+        "    print(\"O valor é positivo.\")\n",
+        "elif valor < 0:\n",
+        "    print(\"O valor é negativo.\")\n",
+        "else:\n",
+        "    print(\"O valor é zero.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NKwew5TgZZkz",
+        "outputId": "edcbc692-f077-4306-b86e-fc274b76289b"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um valor: 13\n",
+            "O valor é positivo.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10. Faça um CÓDIGO que verifique se uma letra digitada é \"F\" ou \"M\". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido."
+      ],
+      "metadata": {
+        "id": "OhKDG7XxZfK3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "letra = input(\"Digite uma letra: \")\n",
+        "\n",
+        "if letra == \"F\" or letra == \"f\":\n",
+        "    print(\"F - Feminino\")\n",
+        "elif letra == \"M\" or letra == \"m\":\n",
+        "    print(\"M - Masculino\")\n",
+        "else:\n",
+        "    print(\"Sexo Inválido\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vlGfWQ1JZf-f",
+        "outputId": "8c04d9a7-5967-49fa-ed88-111600ae5198"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite uma letra: M\n",
+            "M - Masculino\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Olá, este é o Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
