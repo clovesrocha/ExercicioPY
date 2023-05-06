@@ -9,7 +9,7 @@ Original file is located at
 1. Faça um CÓDIGO que mostre a mensagem "Olá ETE PORTO DIGITAL!" na tela.
 """
 
-mensagem = "Olá ETE PORTO DIGITAL!"
+mensagem = "Olá ETE CÍCERO DIAS!"
 print(mensagem)
 
 """2. Faça um CÓDIGO que peça um número e então mostre a mensagem O número informado foi [número]."""
